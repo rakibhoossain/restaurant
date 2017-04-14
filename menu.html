@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Menus ll Resturant</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.ico" />
+     
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/isotop.css"> -->
+    <link  href="css/jquery.fancybox.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+
+    
+
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+     <body>
+     <div id="preloader"></div>
+<!--==============================header=================================-->
+ <header> 
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="images/logo.png" class="brand-image"></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li class="active"><a href="#">Menu <span class="sr-only">(current)</span></a></li>
+          <li><a href="reservation.html">Reservation</a></li>
+          <li><a href="protfolio.html">Gallery</a></li>
+          <li><a href="news.html">News </a></li>
+          <li><a href="contact.html">Contacts</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+</header>
+<!--=======content================================-->
+
+
+
+
+<!-- <a href="javascript:void(window.open('https://www.bookarestaurant.com/widget/BookingWidgetView/5079/Bennelong/3/en-AU?PrimaryTextColour=000000&amp;SecondaryTextColour=000000&amp;WidgetBackgroundColour=ffffff&amp;PrimaryWidgetColour=86754d&amp;BackNavigationButtonsColour=9ba0ad&amp;SelectableOptionsColour=777d8b&amp;CalAvailableDateColour=000000&amp;CalBGAvailableColour=777d8b&amp;CalBGUnAvailableColour=ffffff&amp;CalUnAvailableDateColour=9ba0ad&amp;CalendarHeaderTextColor=ffffff&amp;CalendarHeaderGridColour=41485a&amp;FontName=Arial%2c+Helvetica%2c+sans-serif&amp;HeaderImage=%2fresources.ashx%2fRestaurantImages%2f81rRYonieECIIkB7dBS0vg.75.400.75.400.100%2fImage%2fFF458F2B1FE25C410C43B1D17CE9520E%2fBennelong.PNG&amp;WidgetSpritesID=2&amp;BARLogoID=4&amp;isSpecialRequestsRequired=False&amp;SpecialRequestsText=Special+Requests+(subject+to+availability)&amp;IsAvTimeSlot=False&amp;MinPartySize=1&amp;MaxPartySize=5&amp;IsHideRestaurantTitle=True&amp;IsShowTermsAndConditions=True','_blank','height=600, width=400, toolbar=no,location=no,resizable=no,menubar=no,scrollbars=yes'))">MAKE A BOOKING</a> -->
+<!-- Start Dishes Section -->
+<section class="header header-bg-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <div class="header-content">
+                                <div class="header-content-inner">
+                                    <h1>Our Food Menu</h1>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                                        standard dummy text ever since </p>
+                                    <div class="ui breadcrumb">
+                                        <a href="index.html" class="section">Home</a>
+                                        <div class="divider"> / </div>
+                                        <div class="active section">Menu</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+    <section class="paddingtop80 paddingbottom50">
+        <div class="container">
+            <div class="row">
+            
+ 
+                <div class="col-md-12 gallery">
+                    <div class="section-title text-center">
+                        <img class="header-image" src="images/header-icon-1.png" alt="header-icon">
+                        <h3>Discover</h3>
+                        <h4>Everyday Dishes</h4>
+                    </div>
+                </div>
+                <div class="col-md-12 paddingbottom50" id="menus">
+                  <div class="filter-button-group btn-group btn-group-justified">
+                    <button href="#" class="btn btn-default btn-menu" data-filter="*">All</button>
+                    <button href="#" class="btn btn-default btn-menu" data-filter=".bfast">Breakfast</button>
+                    <button href="#" class="btn btn-default btn-menu" data-filter=".lunch">Lunch</button>
+                    <button href="#" class="btn btn-default btn-menu" data-filter=".dinner">Dinner</button>
+                  </div>
+                </div>
+            </div>
+            <div class="row foods">
+                <div class="col-md-6 col-sm-6 bfast">
+                    <div class="food-item">
+                        <img src="images/food-3.jpg" alt="">
+                        <div class="description">
+                            <h4>Nulla quis lorem ut libero</h4>
+                            <p>Cras ultricies ligula sed magna dictum porta. Nulla quis lorem ut libero malesuada feugiat.</p>
+                        </div>
+                        <div class="price">$19</div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 bfast">
+                    <div class="food-item">
+                        <img src="images/food-10.jpg" alt="">
+                        <div class="description">
+                            <h4>Sed ut perspiciatis unde</h4>
+                            <p>Cras ultricies ligula sed magna dictum porta. Nulla quis lorem ut libero malesuada feugiat.</p>
+                        </div>
+                        <div class="price">$13</div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 dinner">
+                    <div class="food-item"><img src="images/food-3.jpg" alt="">
+                        <div class="description">
+                            <h4>Este natus error</h4>
+                            <p>Cras ultricies ligula sed magna dictum porta. Nulla quis lorem ut libero malesuada feugiat.</p>
+                        </div>
+                        <div class="price">$15</div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 dinner">
+                    <div class="food-item">
+                        <img src="images/food-10.jpg" alt="">
+                        <div class="description">
+                            <h4>Ut enim ad minima</h4>
+                            <p>Cras ultricies ligula sed magna dictum porta. Nulla quis lorem ut libero malesuada feugiat.</p>
+                        </div>
+                        <div class="price">$10</div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 lunch">
+                    <div class="food-item">
+                        <img src="images/food-18.jpg" alt="">
+                        <div class="description">
+                            <h4>Sed ut perspiciatis unde</h4>
+                            <p>Cras ultricies ligula sed magna dictum porta. Nulla quis lorem ut libero malesuada feugiat.</p>
+                        </div>
+                        <div class="price">$13</div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 lunch">
+                    <div class="food-item">
+                        <img src="images/food-17.jpg" alt="">
+                        <div class="description">
+                            <h4>Ratione voluptatem sequi</h4>
+                            <p>Cras ultricies ligula sed magna dictum porta. Nulla quis lorem ut libero malesuada feugiat.</p>
+                        </div>
+                        <div class="price">$21</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Dishes Section -->
+    <section id="offer">
+      <div class="container-fluid bg-offer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <h6 style="color: #636363;text-align: left;font-family:Roboto;font-weight:400;font-style:normal;padding-top:20%;" class="vc_custom_heading vc_custom_1485163428287">HAPPY CUSTOMER EVENT</h6><h2 style="font-size: 59px;color: #636363;text-align: left" class="vc_custom_heading vc_custom_1485258861576">DISCOUNT 50%</h2>
+
+                                   <br>       <div class="wpb_wrapper">
+                              <p><span style="color: #636363;">Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit, sed do eiusmod tempor int et lamp dolore 
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud.</span></p>
+                            </div><br><br><br>
+              <div class="text-l"><a href="" class="btn btn-offer btn-default">Shop Now</a></div>
+
+            </div>
+            <div class="col-md-6">
+              <img src="images/offer.png" title="Img" alt="" class="img-responsive">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+<section class="paddingtop80 paddingbottom50">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title text-center paddingbottom50">
+                        <img class="header-image" src="images/header-icon-1.png" alt="header-icon">
+                        <h3>Other</h3>
+                        <h4>Special Dishes</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="food-menu">
+                        <img src="images/food-25.jpg" class="img-responsive" alt="">
+                        <div class="figcaption">
+                            <h4>Lorem Ipsum Doler</h4>
+                            <p>$13</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="food-menu">
+                        <img src="images/food-21.jpg" class="img-responsive" alt="">
+                        <div class="figcaption">
+                            <h4>Lorem Ipsum Doler</h4>
+                            <p>$13</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="food-menu">
+                        <img src="images/food-10.jpg" class="img-responsive" alt="">
+                        <div class="figcaption">
+                            <h4>Lorem Ipsum Doler</h4>
+                            <p>$13</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="food-menu">
+                        <img src="images/food-13.jpg" class="img-responsive" alt="">
+                        <div class="figcaption">
+                            <h4>Lorem Ipsum Doler</h4>
+                            <p>$13</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="food-menu">
+                        <img src="images/food-17.jpg" class="img-responsive" alt="">
+                        <div class="figcaption">
+                            <h4>Lorem Ipsum Doler</h4>
+                            <p>$13</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="food-menu">
+                        <img src="images/food-18.jpg" class="img-responsive" alt="">
+                        <div class="figcaption">
+                            <h4>Lorem Ipsum Doler</h4>
+                            <p>$13</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="food-menu">
+                        <img src="images/food-3.jpg" class="img-responsive" alt="">
+                        <div class="figcaption">
+                            <h4>Lorem Ipsum Doler</h4>
+                            <p>$13</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="food-menu">
+                        <img src="images/food-21.jpg" class="img-responsive" alt="">
+                        <div class="figcaption">
+                            <h4>Lorem Ipsum Doler</h4>
+                            <p>$13</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="food-menu">
+                        <img src="images/food-3.jpg" class="img-responsive" alt="">
+                        <div class="figcaption">
+                            <h4>Lorem Ipsum Doler</h4>
+                            <p>$13</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+<!--==============================footer=================================-->
+<footer class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <div class="footer-about"><img src="images/logob.png" alt="footer-logo">
+                        <p>Pellentesque in ipsum id orci porta dapibus. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur non nulla sit amet nisl tempus.</p>
+                        <p>Pellentesque in ipsum id orci porta dapibus. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
+                        <ul class="footer-social">
+                            <li><a href="http://www.facebook.com/prof.rakib"><i class="fa fa-facebook">&nbsp;</i></a></li>
+                            <li><a href="http://twitter.com/serakib"><i class="fa fa-twitter">&nbsp;</i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus">&nbsp;</i> </a></li>
+                            <li><a href="#"><i class="fa fa-dribbble">&nbsp;</i></a></li>                                               
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+          <div class="section-title-2 text-center">
+            <h3>Our Gallery</h3>
+          </div>
+          <div class="photo-gallery">
+                        <ul class="gallery-list">
+                            <li>
+                                 <a data-fancybox="gallery" href="images/big3.jpg">
+                                    <img src="images/big3.jpg" alt="" class="img-responsive">
+                                </a>
+                            </li>
+                             <li>
+                                 <a data-fancybox="gallery" href="images/big3.jpg">
+                                    <img src="images/big3.jpg" alt="" class="img-responsive">
+                                </a>
+                            </li>
+                             <li>
+                                 <a data-fancybox="gallery" href="images/big3.jpg">
+                                    <img src="images/big3.jpg" alt="" class="img-responsive">
+                                </a>
+                            </li>
+                             <li>
+                                 <a data-fancybox="gallery" href="images/big3.jpg">
+                                    <img src="images/big3.jpg" alt="" class="img-responsive">
+                                </a>
+                            </li>
+                             <li>
+                                 <a data-fancybox="gallery" href="big3.jpg">
+                                    <img src="images/big3.jpg" alt="" class="img-responsive">
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+        </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="section-title-2 text-center">
+            <h3>Opening Hours</h3>
+          </div>
+                    <div class="opening-hours">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>
+                                    <h5>Sunday</h5>
+                                    <em>10:00am - 11:00pm</em>
+                                </li>
+                                <li>
+                                    <h5>Monday</h5>
+                                    <em>10:00am - 11:00pm</em>
+                                </li>
+                                <li>
+                                    <h5>Tuesday</h5>
+                                    <em>10:00am - 11:00pm</em>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>
+                                    <h5>Wednesday</h5>
+                                    <em>10:00am - 11:00pm</em>
+                                </li>
+                                <li>
+                                    <h5>Thursday</h5>
+                                    <em>10:00am - 11:00pm</em>
+                                </li>
+                                <li>
+                                    <h5>Friday</h5>
+                                    <em>10:00am - 11:00pm</em>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-12">
+                        <p>** Saturday is weekly closed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section id="copyright-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright">Copyright 2017. All Rights Reserved. Developed by <a href="http://www.facebook.com/prof.rakib" target="_blank">Rakib Hossain</a> for <a href="http://www.bitm.org.bd" target="_blank">BITM</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+  <script type="text/javascript">
+    $( document ).ready(function() {
+        $(window).load(function(){
+$('#preloader').fadeOut('slow',function(){$(this).remove();});
+});
+    
+      var $grid = $('.foods').isotope({
+        // options
+      });
+      // filter items on button click
+      $('.filter-button-group').on( 'click', 'button', function() {
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({ filter: filterValue });
+      });
+
+
+    });
+  </script>
+
+</body>
+</html>

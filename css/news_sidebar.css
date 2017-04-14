@@ -1,0 +1,97 @@
+/**====================================================**/
+/** Start Sidebar Section **/
+/**====================================================**/
+
+.sidebar .widget {
+  margin-bottom: 36px;
+}
+
+
+h3.widget-title {
+    color: #222222;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0 0 15px;
+    font-weight: 900;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.sidebar .widget ul.category-list {
+  margin: 0;
+  padding: 0;
+}
+.sidebar .widget ul.category-list li {
+  list-style: none;
+  border: 1px solid #f0f0f0;
+  border-top: none;
+}
+.sidebar .widget ul.category-list li a {
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  color: #999999;
+  font-size: 12px;
+  padding: 8px 20px;
+  background: #ffffff;
+  display: block;
+  text-transform: uppercase;
+}
+.sidebar .widget ul.category-list li a span {
+  float: right;
+  color: #999999;
+}
+.sidebar .widget ul.category-list li a:hover {
+  background: transparent;
+  color: #D32931;
+}
+.sidebar .widget ul.category-list li:first-child {
+  border-top: 1px solid #f1f1f1;
+}
+
+
+.gallery-widget .gallery-list {
+    padding: 0;
+}
+.gallery-widget .gallery-list li {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 32.4%;
+}
+
+
+/** Start Tag CLoud **/
+
+.sidebar .widget ul.tags-list {
+  margin: 0;
+  padding: 0;
+}
+.sidebar .widget ul.tags-list li {
+  display: inline-block;
+  margin-bottom: 3px;
+}
+.sidebar .widget ul.tags-list li a {
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  color: #999999;
+  font-size: 13px;
+  padding: 8px;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+}
+.sidebar .widget ul.tags-list li a:hover {
+  color: #ffffff;
+  background: #D32931;
+  border: 1px solid #D32931;
+}
+
