@@ -3,22 +3,22 @@ This is my first web design project, fully responsive HTML5 template. It is idea
 
 Key Features:
 
-Built with Bootstrap v3.
-Fully responsive layout.
-Isotope plugin included.
-Lightbox plugin included.
-Font Awesome included.
+Built with Bootstrap v3,
+Fully responsive layout,
+Isotope plugin included,
+Lightbox plugin included,
+Font Awesome included,
 Clean and developer friendly code.
 
 
 Sections:
 
-Welcome.
-Discover.
-About.
-Menu.
-Reservation.
-Events.
-Gallery.
-Newsletter.
+Welcome,
+Discover,
+About,
+Menu,
+Reservation,
+Events,
+Gallery,
+Newsletter,
 Footer.
